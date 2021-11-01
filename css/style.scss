@@ -1,6 +1,4 @@
 @import 'reset';
-
-$somon:#FF7262;
 $black:#000000;
 $yellow: #FDE100;
 
@@ -18,19 +16,30 @@ body{
 
 .centerBox{
         position: relative;
-        width: 40rem;
-        height: 20rem;
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       
 }
 
+   .modelbox{
+     position:relative;
+     width: 20rem;
+     height: 100vh;
 
+ 
+
+   }
 
 .mugBody{
-     position: absolute;
+     position:absolute;
      display:flex;
      align-items: center;
      justify-content: center;
-     top:3rem;
-     left:12rem;
+     top:35%;
+     left:5%;
      background-color: $black;
      width: 14rem;
      height: 15rem;
@@ -39,6 +48,29 @@ body{
      box-shadow: 0px 1px 0px 0px #5e5e5e;
 }
 
+.mugHandle{
+     background-color: $black;
+     position: absolute;
+     width: 8.5rem;
+     height: 12rem;
+     top:37%;
+     left:52%;
+     border-radius: 50%;
+     z-index:1;
+     box-shadow: 0px 0px 0.5px 0.5px #5e5e5e;
+}
+
+.mugHandleIn{
+     position: absolute;
+     background-color: grey;
+     width: 6.2rem;
+     height: 10rem;
+     top:39%;
+     left:57.5%;
+     border-radius: 50%;
+     z-index:1;
+     box-shadow: 0px 0px 0.5px 0.5px #5e5e5e;
+}
 .yellowBack{
      display:flex;
      align-items: center;
@@ -58,7 +90,6 @@ body{
      border:0.2rem solid $black;
      
 }
-
 
 .vletter{
     position: absolute;
@@ -93,37 +124,6 @@ body{
      z-index:3;
      font-weight: 500;
  }
-
-
-.mugHandle{
-     background-color: $black;
-     position: absolute;
-     width: 8.5rem;
-     height: 12rem;
-     left:23rem;
-     top: 4rem;
-     border-radius: 50%;
-     z-index:1;
-     box-shadow: 0px 0px 0.5px 0.5px #5e5e5e;
-}
-
-.mugHandleIn{
-     position: absolute;
-     background-color: grey;
-     width: 6.2rem;
-     height: 10rem;
-     left:24.3rem;
-     top: 5rem;
-     border-radius: 50%;
-     z-index:1;
-     box-shadow: 0px 0px 0.5px 0.5px #5e5e5e;
-}
-
-
-
-
-
-
 
 
 
