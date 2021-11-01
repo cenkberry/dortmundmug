@@ -1,0 +1,135 @@
+@import 'reset';
+
+$somon:#FF7262;
+$black:#000000;
+$yellow: #FDE100;
+
+
+body{
+     width: 100%;
+     height: 100vh;
+     background-color: grey;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Oswald', sans-serif;
+
+}
+
+.centerBox{
+        position: relative;
+        width: 40rem;
+        height: 20rem;
+}
+
+
+
+.mugBody{
+     position: absolute;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     top:3rem;
+     left:12rem;
+     background-color: $black;
+     width: 14rem;
+     height: 15rem;
+     border-radius: 10% 10% 30% 30% / 1% 1% 10% 10%;
+     z-index:2;
+     box-shadow: 0px 1px 0px 0px #5e5e5e;
+}
+
+.yellowBack{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     background-color: $yellow;
+     width: 11rem;
+     height: 12rem;
+     border-radius: 50%;
+}
+
+.blackBack{
+     position: relative;
+     background-color: $yellow;
+     width: 10.5rem;
+     height: 11.5rem;
+     border-radius: 50%;
+     border:0.2rem solid $black;
+     
+}
+
+
+.vletter{
+    position: absolute;
+    font-size: 6rem;
+    top: -0.8rem;
+    left: 4.5rem;
+    z-index:3;
+    font-weight: 500;
+}
+
+.bletter1{
+     position: absolute;
+     font-size: 6rem;
+     top:1.5rem;
+     left:1.4rem;
+     z-index:3;
+     font-weight: 500;
+ }
+
+ .bletter2{
+     position: absolute;
+     font-size: 6rem;
+     top:1.5rem;
+     right:1.2rem;
+     z-index:3;
+     font-weight: 500;
+ }
+ .numbers{
+     position: absolute;
+     font-size: 2.5rem;
+     top:8rem;
+     z-index:3;
+     font-weight: 500;
+ }
+
+
+.mugHandle{
+     background-color: $black;
+     position: absolute;
+     width: 8.5rem;
+     height: 12rem;
+     left:23rem;
+     top: 4rem;
+     border-radius: 50%;
+     z-index:1;
+     box-shadow: 0px 0px 0.5px 0.5px #5e5e5e;
+}
+
+.mugHandleIn{
+     position: absolute;
+     background-color: grey;
+     width: 6.2rem;
+     height: 10rem;
+     left:24.3rem;
+     top: 5rem;
+     border-radius: 50%;
+     z-index:1;
+     box-shadow: 0px 0px 0.5px 0.5px #5e5e5e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     
+     
